@@ -54,7 +54,7 @@
 									"top": 111,
 									"width": 135,
 									"height": 13,
-									"text": "Person"
+									"text": "用户"
 								},
 								{
 									"_type": "LabelView",
@@ -126,7 +126,7 @@
 									"top": 134,
 									"width": 135,
 									"height": 13,
-									"text": "-username: String",
+									"text": "-用户名",
 									"horizontalAlignment": 0
 								},
 								{
@@ -143,7 +143,7 @@
 									"top": 149,
 									"width": 135,
 									"height": 13,
-									"text": "-password: String",
+									"text": "-密码",
 									"horizontalAlignment": 0
 								},
 								{
@@ -213,7 +213,7 @@
 									"top": 172,
 									"width": 135,
 									"height": 13,
-									"text": "+changePassword()",
+									"text": "+修改密码()",
 									"horizontalAlignment": 0
 								}
 							],
@@ -321,7 +321,7 @@
 									"top": 359,
 									"width": 117.74267578125,
 									"height": 13,
-									"text": "Student"
+									"text": "学生"
 								},
 								{
 									"_type": "LabelView",
@@ -393,7 +393,7 @@
 									"top": 382,
 									"width": 117.74267578125,
 									"height": 13,
-									"text": "-score: int",
+									"text": "-成绩",
 									"horizontalAlignment": 0
 								},
 								{
@@ -410,7 +410,7 @@
 									"top": 397,
 									"width": 117.74267578125,
 									"height": 13,
-									"text": "-name: String",
+									"text": "-姓名",
 									"horizontalAlignment": 0
 								},
 								{
@@ -427,7 +427,7 @@
 									"top": 412,
 									"width": 117.74267578125,
 									"height": 13,
-									"text": "-classroom: String",
+									"text": "-班级",
 									"horizontalAlignment": 0
 								},
 								{
@@ -439,6 +439,7 @@
 									"model": {
 										"$ref": "AAAAAAF1QUGnG0JbLyw="
 									},
+									"visible": false,
 									"font": "Arial;13;0",
 									"left": 397,
 									"top": 427,
@@ -452,7 +453,7 @@
 							"left": 392,
 							"top": 377,
 							"width": 127.74267578125,
-							"height": 68
+							"height": 53
 						},
 						{
 							"_type": "UMLOperationCompartmentView",
@@ -475,10 +476,10 @@
 									},
 									"font": "Arial;13;0",
 									"left": 397,
-									"top": 450,
+									"top": 435,
 									"width": 117.74267578125,
 									"height": 13,
-									"text": "+starExam()",
+									"text": "+开始考试()",
 									"horizontalAlignment": 0
 								},
 								{
@@ -492,10 +493,10 @@
 									},
 									"font": "Arial;13;0",
 									"left": 397,
-									"top": 465,
+									"top": 450,
 									"width": 117.74267578125,
 									"height": 13,
-									"text": "+getScore()",
+									"text": "+获取成绩()",
 									"horizontalAlignment": 0
 								},
 								{
@@ -509,16 +510,16 @@
 									},
 									"font": "Arial;13;0",
 									"left": 397,
-									"top": 480,
+									"top": 465,
 									"width": 117.74267578125,
 									"height": 13,
-									"text": "+getExamAnswer()",
+									"text": "+获取考试答案()",
 									"horizontalAlignment": 0
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 392,
-							"top": 445,
+							"top": 430,
 							"width": 127.74267578125,
 							"height": 53
 						},
@@ -620,7 +621,7 @@
 									"top": 367,
 									"width": 140.41015625,
 									"height": 13,
-									"text": "Teacher"
+									"text": "教师"
 								},
 								{
 									"_type": "LabelView",
@@ -692,7 +693,7 @@
 									"top": 390,
 									"width": 140.41015625,
 									"height": 13,
-									"text": "-name: String",
+									"text": "-姓名",
 									"horizontalAlignment": 0
 								}
 							],
@@ -726,7 +727,7 @@
 									"top": 413,
 									"width": 140.41015625,
 									"height": 13,
-									"text": "+showStudentInfo()",
+									"text": "+显示学生信息()",
 									"horizontalAlignment": 0
 								},
 								{
@@ -743,7 +744,7 @@
 									"top": 428,
 									"width": 140.41015625,
 									"height": 13,
-									"text": "+setPracticeTestStart()",
+									"text": "+开始模拟考试()",
 									"horizontalAlignment": 0
 								},
 								{
@@ -760,7 +761,7 @@
 									"top": 443,
 									"width": 140.41015625,
 									"height": 13,
-									"text": "+delClass()",
+									"text": "+删除班级()",
 									"horizontalAlignment": 0
 								}
 							],
@@ -868,7 +869,7 @@
 									"top": 375,
 									"width": 134.55126953125,
 									"height": 13,
-									"text": "Admin"
+									"text": "管理员"
 								},
 								{
 									"_type": "LabelView",
@@ -1011,7 +1012,7 @@
 									"top": 408,
 									"width": 134.55126953125,
 									"height": 13,
-									"text": "+showTeacher()",
+									"text": "+显示教师()",
 									"horizontalAlignment": 0
 								},
 								{
@@ -1028,7 +1029,7 @@
 									"top": 423,
 									"width": 134.55126953125,
 									"height": 13,
-									"text": "+setFromalTestStart()",
+									"text": "+开始正式考试()",
 									"horizontalAlignment": 0
 								}
 							],
@@ -1136,7 +1137,7 @@
 									"top": 535,
 									"width": 119,
 									"height": 13,
-									"text": "Question"
+									"text": "题目"
 								},
 								{
 									"_type": "LabelView",
@@ -1208,7 +1209,7 @@
 									"top": 558,
 									"width": 119,
 									"height": 13,
-									"text": "-title",
+									"text": "-题干",
 									"horizontalAlignment": 0
 								},
 								{
@@ -1225,7 +1226,7 @@
 									"top": 573,
 									"width": 119,
 									"height": 13,
-									"text": "-option",
+									"text": "-选项",
 									"horizontalAlignment": 0
 								},
 								{
@@ -1242,7 +1243,7 @@
 									"top": 588,
 									"width": 119,
 									"height": 13,
-									"text": "-answer",
+									"text": "-答案",
 									"horizontalAlignment": 0
 								},
 								{
@@ -1259,7 +1260,7 @@
 									"top": 603,
 									"width": 119,
 									"height": 13,
-									"text": "-type",
+									"text": "-题目类型",
 									"horizontalAlignment": 0
 								},
 								{
@@ -1271,6 +1272,7 @@
 									"model": {
 										"$ref": "AAAAAAF1QQz1XB8Ksh4="
 									},
+									"visible": false,
 									"font": "Arial;13;0",
 									"left": 13,
 									"top": 618,
@@ -1284,7 +1286,7 @@
 							"left": 8,
 							"top": 553,
 							"width": 129,
-							"height": 83
+							"height": 68
 						},
 						{
 							"_type": "UMLOperationCompartmentView",
@@ -1305,9 +1307,10 @@
 									"model": {
 										"$ref": "AAAAAAF1QO6tmx4VJZY="
 									},
+									"visible": false,
 									"font": "Arial;13;0",
 									"left": 13,
-									"top": 641,
+									"top": 626,
 									"width": 119,
 									"height": 13,
 									"text": "+Operation1()",
@@ -1316,9 +1319,9 @@
 							],
 							"font": "Arial;13;0",
 							"left": 8,
-							"top": 636,
+							"top": 621,
 							"width": 129,
-							"height": 23
+							"height": 10
 						},
 						{
 							"_type": "UMLReceptionCompartmentView",
@@ -1418,7 +1421,7 @@
 									"top": 335,
 									"width": 135,
 									"height": 13,
-									"text": "Paper"
+									"text": "试卷"
 								},
 								{
 									"_type": "LabelView",
@@ -1489,7 +1492,7 @@
 									"top": 358,
 									"width": 135,
 									"height": 13,
-									"text": "-questionList",
+									"text": "-问题集合",
 									"horizontalAlignment": 0
 								}
 							],
@@ -1522,7 +1525,7 @@
 									"top": 381,
 									"width": 135,
 									"height": 13,
-									"text": "+checkAnswer()",
+									"text": "+判断答案()",
 									"horizontalAlignment": 0
 								}
 							],
@@ -1628,7 +1631,7 @@
 									"top": 103,
 									"width": 231,
 									"height": 13,
-									"text": "Exam"
+									"text": "考试"
 								},
 								{
 									"_type": "LabelView",
@@ -1700,7 +1703,7 @@
 									"top": 126,
 									"width": 231,
 									"height": 13,
-									"text": "-examType",
+									"text": "-考试类型",
 									"horizontalAlignment": 0
 								},
 								{
@@ -1717,7 +1720,7 @@
 									"top": 141,
 									"width": 231,
 									"height": 13,
-									"text": "-questionNumber",
+									"text": "-问题编号",
 									"horizontalAlignment": 0
 								},
 								{
@@ -1734,7 +1737,7 @@
 									"top": 156,
 									"width": 231,
 									"height": 13,
-									"text": "-examTime",
+									"text": "-考试时间",
 									"horizontalAlignment": 0
 								}
 							],
@@ -1768,7 +1771,7 @@
 									"top": 179,
 									"width": 231,
 									"height": 13,
-									"text": "+randomGetPaper()",
+									"text": "+随机获得试卷()",
 									"horizontalAlignment": 0
 								},
 								{
@@ -1785,7 +1788,7 @@
 									"top": 194,
 									"width": 231,
 									"height": 13,
-									"text": "+getStudentScore()",
+									"text": "+获取学生成绩()",
 									"horizontalAlignment": 0
 								}
 							],
@@ -4583,7 +4586,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 			},
-			"name": "Person",
+			"name": "用户",
 			"attributes": [
 				{
 					"_type": "UMLAttribute",
@@ -4591,9 +4594,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QNgEqRxdRhg="
 					},
-					"name": "username",
-					"visibility": "private",
-					"type": "String"
+					"name": "用户名",
+					"visibility": "private"
 				},
 				{
 					"_type": "UMLAttribute",
@@ -4601,10 +4603,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QNgEqRxdRhg="
 					},
-					"name": "password",
-					"stereotype": "",
-					"visibility": "private",
-					"type": "String"
+					"name": "密码",
+					"visibility": "private"
 				},
 				{
 					"_type": "UMLAttribute",
@@ -4632,7 +4632,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QNgEqRxdRhg="
 					},
-					"name": "changePassword"
+					"name": "修改密码"
 				}
 			]
 		},
@@ -4642,7 +4642,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 			},
-			"name": "Student",
+			"name": "学生",
 			"ownedElements": [
 				{
 					"_type": "UMLGeneralization",
@@ -4709,9 +4709,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QNyvEBzP02A="
 					},
-					"name": "score",
-					"visibility": "private",
-					"type": "int"
+					"name": "成绩",
+					"visibility": "private"
 				},
 				{
 					"_type": "UMLAttribute",
@@ -4719,9 +4718,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QNyvEBzP02A="
 					},
-					"name": "name",
-					"visibility": "private",
-					"type": "String"
+					"name": "姓名",
+					"visibility": "private"
 				},
 				{
 					"_type": "UMLAttribute",
@@ -4729,9 +4727,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QNyvEBzP02A="
 					},
-					"name": "classroom",
-					"visibility": "private",
-					"type": "String"
+					"name": "班级",
+					"visibility": "private"
 				},
 				{
 					"_type": "UMLAttribute",
@@ -4750,7 +4747,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QNyvEBzP02A="
 					},
-					"name": "starExam"
+					"name": "开始考试"
 				},
 				{
 					"_type": "UMLOperation",
@@ -4758,7 +4755,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QNyvEBzP02A="
 					},
-					"name": "getScore"
+					"name": "获取成绩"
 				},
 				{
 					"_type": "UMLOperation",
@@ -4766,7 +4763,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QNyvEBzP02A="
 					},
-					"name": "getExamAnswer"
+					"name": "获取考试答案"
 				}
 			]
 		},
@@ -4776,7 +4773,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 			},
-			"name": "Teacher",
+			"name": "教师",
 			"ownedElements": [
 				{
 					"_type": "UMLGeneralization",
@@ -4857,9 +4854,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QOkbwR0zJ9k="
 					},
-					"name": "name",
-					"visibility": "private",
-					"type": "String"
+					"name": "姓名",
+					"visibility": "private"
 				}
 			],
 			"operations": [
@@ -4869,7 +4865,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QOkbwR0zJ9k="
 					},
-					"name": "showStudentInfo"
+					"name": "显示学生信息"
 				},
 				{
 					"_type": "UMLOperation",
@@ -4877,7 +4873,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QOkbwR0zJ9k="
 					},
-					"name": "setPracticeTestStart"
+					"name": "开始模拟考试"
 				},
 				{
 					"_type": "UMLOperation",
@@ -4885,7 +4881,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QOkbwR0zJ9k="
 					},
-					"name": "delClass"
+					"name": "删除班级"
 				}
 			]
 		},
@@ -4895,7 +4891,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 			},
-			"name": "Admin",
+			"name": "管理员",
 			"ownedElements": [
 				{
 					"_type": "UMLGeneralization",
@@ -4975,7 +4971,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QO3FEh12uDM="
 					},
-					"name": "showTeacher"
+					"name": "显示教师"
 				},
 				{
 					"_type": "UMLOperation",
@@ -4983,7 +4979,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QO3FEh12uDM="
 					},
-					"name": "setFromalTestStart"
+					"name": "开始正式考试"
 				}
 			]
 		},
@@ -4993,7 +4989,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 			},
-			"name": "Question",
+			"name": "题目",
 			"ownedElements": [
 				{
 					"_type": "UMLAssociation",
@@ -5033,9 +5029,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QO54LR3kzwg="
 					},
-					"name": "title",
-					"visibility": "private",
-					"type": ""
+					"name": "题干",
+					"visibility": "private"
 				},
 				{
 					"_type": "UMLAttribute",
@@ -5043,9 +5038,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QO54LR3kzwg="
 					},
-					"name": "option",
-					"visibility": "private",
-					"type": ""
+					"name": "选项",
+					"visibility": "private"
 				},
 				{
 					"_type": "UMLAttribute",
@@ -5053,9 +5047,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QO54LR3kzwg="
 					},
-					"name": "answer",
-					"visibility": "private",
-					"type": ""
+					"name": "答案",
+					"visibility": "private"
 				},
 				{
 					"_type": "UMLAttribute",
@@ -5063,9 +5056,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QO54LR3kzwg="
 					},
-					"name": "type",
-					"visibility": "private",
-					"type": ""
+					"name": "题目类型",
+					"visibility": "private"
 				},
 				{
 					"_type": "UMLAttribute",
@@ -5094,7 +5086,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 			},
-			"name": "Paper",
+			"name": "试卷",
 			"ownedElements": [
 				{
 					"_type": "UMLAssociation",
@@ -5134,9 +5126,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QO60qB4bRh8="
 					},
-					"name": "questionList",
-					"visibility": "private",
-					"type": ""
+					"name": "问题集合",
+					"visibility": "private"
 				}
 			],
 			"operations": [
@@ -5146,7 +5137,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QO60qB4bRh8="
 					},
-					"name": "checkAnswer"
+					"name": "判断答案"
 				}
 			]
 		},
@@ -5156,7 +5147,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 			},
-			"name": "Exam",
+			"name": "考试",
 			"attributes": [
 				{
 					"_type": "UMLAttribute",
@@ -5164,9 +5155,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QQ7bXB8QN2Y="
 					},
-					"name": "examType",
-					"visibility": "private",
-					"type": ""
+					"name": "考试类型",
+					"visibility": "private"
 				},
 				{
 					"_type": "UMLAttribute",
@@ -5174,9 +5164,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QQ7bXB8QN2Y="
 					},
-					"name": "questionNumber",
-					"visibility": "private",
-					"type": ""
+					"name": "问题编号",
+					"visibility": "private"
 				},
 				{
 					"_type": "UMLAttribute",
@@ -5184,9 +5173,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QQ7bXB8QN2Y="
 					},
-					"name": "examTime",
-					"visibility": "private",
-					"type": ""
+					"name": "考试时间",
+					"visibility": "private"
 				}
 			],
 			"operations": [
@@ -5196,7 +5184,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QQ7bXB8QN2Y="
 					},
-					"name": "randomGetPaper"
+					"name": "随机获得试卷"
 				},
 				{
 					"_type": "UMLOperation",
@@ -5204,7 +5192,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QQ7bXB8QN2Y="
 					},
-					"name": "getStudentScore"
+					"name": "获取学生成绩"
 				}
 			]
 		},
