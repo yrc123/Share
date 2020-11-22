@@ -512,7 +512,7 @@
 									"font": "Arial;13;0",
 									"left": 781,
 									"top": 993,
-									"width": 173.71630859375,
+									"width": 178.46435546875,
 									"height": 13,
 									"text": "+通过Cookie查询学生用户名()",
 									"horizontalAlignment": 0
@@ -1547,13 +1547,30 @@
 									"height": 13,
 									"text": "-问题集合",
 									"horizontalAlignment": 0
+								},
+								{
+									"_type": "UMLAttributeView",
+									"_id": "AAAAAAF17iPx7dfhY6g=",
+									"_parent": {
+										"$ref": "AAAAAAF1QO60qR4jPAg="
+									},
+									"model": {
+										"$ref": "AAAAAAF17iPxvdfe5+8="
+									},
+									"font": "Arial;13;0",
+									"left": 237,
+									"top": 645,
+									"width": 135,
+									"height": 13,
+									"text": "-成绩",
+									"horizontalAlignment": 0
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 232,
 							"top": 625,
 							"width": 145,
-							"height": 23
+							"height": 38
 						},
 						{
 							"_type": "UMLOperationCompartmentView",
@@ -1576,18 +1593,35 @@
 									},
 									"font": "Arial;13;0",
 									"left": 237,
-									"top": 653,
+									"top": 668,
 									"width": 135,
 									"height": 13,
 									"text": "+判断答案()",
+									"horizontalAlignment": 0
+								},
+								{
+									"_type": "UMLOperationView",
+									"_id": "AAAAAAF17iQj19jodjk=",
+									"_parent": {
+										"$ref": "AAAAAAF1QO60qR4kHrQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF17iQjr9jlKCo="
+									},
+									"font": "Arial;13;0",
+									"left": 237,
+									"top": 683,
+									"width": 135,
+									"height": 13,
+									"text": "+获取成绩()",
 									"horizontalAlignment": 0
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 232,
-							"top": 648,
+							"top": 663,
 							"width": 145,
-							"height": 23
+							"height": 38
 						},
 						{
 							"_type": "UMLReceptionCompartmentView",
@@ -1627,7 +1661,7 @@
 					"left": 232,
 					"top": 600,
 					"width": 145,
-					"height": 97,
+					"height": 101,
 					"nameCompartment": {
 						"$ref": "AAAAAAF1QO60qR4e0CA="
 					},
@@ -1764,23 +1798,6 @@
 								},
 								{
 									"_type": "UMLAttributeView",
-									"_id": "AAAAAAF1QQ9cXR9ILtc=",
-									"_parent": {
-										"$ref": "AAAAAAF1QQ7bXR8Yccg="
-									},
-									"model": {
-										"$ref": "AAAAAAF1QQ9cSB9FwIw="
-									},
-									"font": "Arial;13;0",
-									"left": 189,
-									"top": 405,
-									"width": 183,
-									"height": 13,
-									"text": "-问题编号",
-									"horizontalAlignment": 0
-								},
-								{
-									"_type": "UMLAttributeView",
 									"_id": "AAAAAAF1QQ++yh9QHd4=",
 									"_parent": {
 										"$ref": "AAAAAAF1QQ7bXR8Yccg="
@@ -1790,7 +1807,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 189,
-									"top": 420,
+									"top": 405,
 									"width": 183,
 									"height": 13,
 									"text": "-考试时间",
@@ -1807,7 +1824,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 189,
-									"top": 435,
+									"top": 420,
 									"width": 183,
 									"height": 13,
 									"text": "+试卷集合",
@@ -1818,7 +1835,7 @@
 							"left": 184,
 							"top": 385,
 							"width": 193,
-							"height": 68
+							"height": 53
 						},
 						{
 							"_type": "UMLOperationCompartmentView",
@@ -1841,7 +1858,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 189,
-									"top": 458,
+									"top": 443,
 									"width": 183,
 									"height": 13,
 									"text": "+随机获得试卷()",
@@ -1858,7 +1875,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 189,
-									"top": 473,
+									"top": 458,
 									"width": 183,
 									"height": 13,
 									"text": "+获取学生成绩()",
@@ -1885,7 +1902,7 @@
 							],
 							"font": "Arial;13;0",
 							"left": 184,
-							"top": 453,
+							"top": 438,
 							"width": 193,
 							"height": 38
 						},
@@ -1966,7 +1983,7 @@
 							"visible": false,
 							"font": "Arial;13;0",
 							"left": 289,
-							"top": 741,
+							"top": 743,
 							"height": 13,
 							"alpha": 1.5707963267948966,
 							"distance": 15,
@@ -1987,7 +2004,7 @@
 							"visible": null,
 							"font": "Arial;13;0",
 							"left": 274,
-							"top": 741,
+							"top": 743,
 							"height": 13,
 							"alpha": 1.5707963267948966,
 							"distance": 30,
@@ -2008,7 +2025,7 @@
 							"visible": false,
 							"font": "Arial;13;0",
 							"left": 318,
-							"top": 742,
+							"top": 744,
 							"height": 13,
 							"alpha": -1.5707963267948966,
 							"distance": 15,
@@ -2092,7 +2109,7 @@
 							},
 							"font": "Arial;13;0",
 							"left": 281,
-							"top": 716,
+							"top": 720,
 							"width": 17.265625,
 							"height": 13,
 							"alpha": -0.5235987755982988,
@@ -2114,7 +2131,7 @@
 							"visible": false,
 							"font": "Arial;13;0",
 							"left": 275,
-							"top": 719,
+							"top": 723,
 							"height": 13,
 							"alpha": -0.7853981633974483,
 							"distance": 40,
@@ -2134,7 +2151,7 @@
 							"visible": false,
 							"font": "Arial;13;0",
 							"left": 316,
-							"top": 712,
+							"top": 716,
 							"height": 13,
 							"alpha": 0.5235987755982988,
 							"distance": 25,
@@ -2183,7 +2200,7 @@
 						"$ref": "AAAAAAF1QO54LR3mCqg="
 					},
 					"lineStyle": 1,
-					"points": "304:799;304:697",
+					"points": "304:799;304:701",
 					"showVisibility": true,
 					"nameLabel": {
 						"$ref": "AAAAAAF1QSf6XiGU4Ac="
@@ -4806,7 +4823,7 @@
 									"font": "Arial;13;0",
 									"left": -1280,
 									"top": -1040,
-									"width": 73.67724609375,
+									"width": 82.56396484375,
 									"height": 13,
 									"text": "(from Model)"
 								},
@@ -5904,6 +5921,15 @@
 					"name": "问题集合",
 					"visibility": "private",
 					"type": ""
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAF17iPxvdfe5+8=",
+					"_parent": {
+						"$ref": "AAAAAAF1QO60qB4bRh8="
+					},
+					"name": "成绩",
+					"visibility": "private"
 				}
 			],
 			"operations": [
@@ -5914,6 +5940,14 @@
 						"$ref": "AAAAAAF1QO60qB4bRh8="
 					},
 					"name": "判断答案"
+				},
+				{
+					"_type": "UMLOperation",
+					"_id": "AAAAAAF17iQjr9jlKCo=",
+					"_parent": {
+						"$ref": "AAAAAAF1QO60qB4bRh8="
+					},
+					"name": "获取成绩"
 				}
 			]
 		},
@@ -5967,16 +6001,6 @@
 				},
 				{
 					"_type": "UMLAttribute",
-					"_id": "AAAAAAF1QQ9cSB9FwIw=",
-					"_parent": {
-						"$ref": "AAAAAAF1QQ7bXB8QN2Y="
-					},
-					"name": "问题编号",
-					"visibility": "private",
-					"type": ""
-				},
-				{
-					"_type": "UMLAttribute",
 					"_id": "AAAAAAF1QQ++tR9Nz9M=",
 					"_parent": {
 						"$ref": "AAAAAAF1QQ7bXB8QN2Y="
@@ -5991,7 +6015,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF1QQ7bXB8QN2Y="
 					},
-					"name": "试卷集合"
+					"name": "试卷集合",
+					"type": ""
 				}
 			],
 			"operations": [
@@ -6211,7 +6236,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF10QXRgcGHvak="
 					},
-					"name": "考试集合"
+					"name": "考试集合",
+					"type": ""
 				}
 			],
 			"operations": [
