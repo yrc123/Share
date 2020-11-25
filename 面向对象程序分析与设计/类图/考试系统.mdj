@@ -2572,7 +2572,7 @@
 									"top": 119,
 									"width": 191,
 									"height": 13,
-									"text": "ExamManagementSystem"
+									"text": "考试列表"
 								},
 								{
 									"_type": "LabelView",
@@ -2848,9 +2848,9 @@
 								"$ref": "AAAAAAF10Qi7bMwIBzw="
 							},
 							"font": "Arial;13;0",
-							"left": 377,
+							"left": 376,
 							"top": 263,
-							"width": 14.82177734375,
+							"width": 17.265625,
 							"height": 13,
 							"alpha": 1.5707963267948966,
 							"distance": 15,
@@ -2912,9 +2912,9 @@
 								"$ref": "AAAAAAF10Qi7bMwJbTA="
 							},
 							"font": "Arial;13;0",
-							"left": 332,
+							"left": 331,
 							"top": 323,
-							"width": 14.82177734375,
+							"width": 17.65283203125,
 							"height": 13,
 							"alpha": 0.5235987755982988,
 							"distance": 30,
@@ -3692,7 +3692,8 @@
 						"$ref": "AAAAAAF1QO60qB4bRh8="
 					},
 					"name": "成绩",
-					"visibility": "private"
+					"visibility": "private",
+					"type": ""
 				}
 			],
 			"operations": [
@@ -3993,7 +3994,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 			},
-			"name": "ExamManagementSystem",
+			"name": "考试列表",
 			"attributes": [
 				{
 					"_type": "UMLAttribute",
