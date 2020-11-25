@@ -250,7 +250,7 @@
 													"top": 47,
 													"width": 75,
 													"height": 13,
-													"text": "：考试系统"
+													"text": "：考试列表"
 												},
 												{
 													"_type": "LabelView",
@@ -2875,7 +2875,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF1jLhZ6QRDu4g="
 							},
-							"name": "：考试系统",
+							"name": "：考试列表",
 							"represent": {
 								"$ref": "AAAAAAF1jdpfcwTna5M="
 							},
@@ -2981,8 +2981,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1jLhZ6ARCqKY="
 					},
-					"name": "Role3",
-					"type": ""
+					"name": "Role3"
 				},
 				{
 					"_type": "UMLAttribute",
