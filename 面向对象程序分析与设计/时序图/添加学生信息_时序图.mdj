@@ -133,9 +133,9 @@
 															"font": "Arial;13;1",
 															"left": 325,
 															"top": 47,
-															"width": 184.0908203125,
+															"width": 196.20849609375,
 															"height": 13,
-															"text": "StudentManagementSystem"
+															"text": "学生表"
 														},
 														{
 															"_type": "LabelView",
@@ -166,7 +166,7 @@
 													"font": "Arial;13;0",
 													"left": 320,
 													"top": 40,
-													"width": 194.0908203125,
+													"width": 206.20849609375,
 													"height": 40,
 													"stereotypeLabel": {
 														"$ref": "AAAAAAF1jcm+iG2L8AU="
@@ -191,7 +191,7 @@
 														"$ref": "AAAAAAF1jcm+h22Iawc="
 													},
 													"font": "Arial;13;0",
-													"left": 417,
+													"left": 423,
 													"top": 80,
 													"width": 1,
 													"height": 913
@@ -200,7 +200,7 @@
 											"font": "Arial;13;0",
 											"left": 320,
 											"top": 40,
-											"width": 194.0908203125,
+											"width": 206.20849609375,
 											"height": 953,
 											"nameCompartment": {
 												"$ref": "AAAAAAF1jcm+iG2KsQA="
@@ -346,7 +346,7 @@
 														"$ref": "AAAAAAF1jebXRW62lzo="
 													},
 													"font": "Arial;13;0",
-													"left": 219,
+													"left": 222,
 													"top": 152,
 													"width": 153.8544921875,
 													"height": 13,
@@ -369,7 +369,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 295,
+													"left": 298,
 													"top": 137,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -390,7 +390,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 295,
+													"left": 298,
 													"top": 172,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -410,7 +410,7 @@
 														"$ref": "AAAAAAF1jebXRW62lzo="
 													},
 													"font": "Arial;13;0",
-													"left": 410,
+													"left": 416,
 													"top": 168,
 													"width": 14,
 													"height": 76
@@ -423,7 +423,7 @@
 											"tail": {
 												"$ref": "AAAAAAF1jeDmhG6Mzlo="
 											},
-											"points": "181:168;410:168",
+											"points": "181:168;416:168",
 											"nameLabel": {
 												"$ref": "AAAAAAF1jebXRm644xU="
 											},
@@ -457,7 +457,7 @@
 														"$ref": "AAAAAAF1jec/LW7NVSE="
 													},
 													"font": "Arial;13;0",
-													"left": 455,
+													"left": 461,
 													"top": 192,
 													"width": 161.4462890625,
 													"height": 13,
@@ -480,7 +480,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 477,
+													"left": 483,
 													"top": 195,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -501,7 +501,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 443,
+													"left": 449,
 													"top": 196,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -521,7 +521,7 @@
 														"$ref": "AAAAAAF1jec/LW7NVSE="
 													},
 													"font": "Arial;13;0",
-													"left": 417,
+													"left": 423,
 													"top": 212,
 													"width": 14,
 													"height": 29
@@ -534,7 +534,7 @@
 											"tail": {
 												"$ref": "AAAAAAF1jcm+iG2PLOM="
 											},
-											"points": "423:192;453:192;453:212;430:212",
+											"points": "429:192;459:192;459:212;436:212",
 											"nameLabel": {
 												"$ref": "AAAAAAF1jec/LW7Pwhk="
 											},
@@ -836,7 +836,7 @@
 														"$ref": "AAAAAAF1jhA9s3CGxJo="
 													},
 													"font": "Arial;13;0",
-													"left": 250,
+													"left": 253,
 													"top": 484,
 													"width": 96.4462890625,
 													"height": 13,
@@ -859,7 +859,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 298,
+													"left": 301,
 													"top": 499,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -880,7 +880,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 299,
+													"left": 302,
 													"top": 464,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -914,7 +914,7 @@
 											"tail": {
 												"$ref": "AAAAAAF1jcm+iG2PLOM="
 											},
-											"points": "417:480;181:480",
+											"points": "423:480;181:480",
 											"nameLabel": {
 												"$ref": "AAAAAAF1jhA9s3CI8dU="
 											},
@@ -948,7 +948,7 @@
 														"$ref": "AAAAAAF1jhEKPXDKQMY="
 													},
 													"font": "Arial;13;0",
-													"left": 259,
+													"left": 262,
 													"top": 588,
 													"width": 78.06982421875,
 													"height": 13,
@@ -971,7 +971,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 298,
+													"left": 301,
 													"top": 603,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -992,7 +992,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 299,
+													"left": 302,
 													"top": 568,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -1026,7 +1026,7 @@
 											"tail": {
 												"$ref": "AAAAAAF1jcm+iG2PLOM="
 											},
-											"points": "417:584;181:584",
+											"points": "423:584;181:584",
 											"nameLabel": {
 												"$ref": "AAAAAAF1jhEKPnDM1nI="
 											},
@@ -1060,7 +1060,7 @@
 														"$ref": "AAAAAAF1jhhHEXErVoA="
 													},
 													"font": "Arial;13;0",
-													"left": 233,
+													"left": 236,
 													"top": 764,
 													"width": 130.06982421875,
 													"height": 13,
@@ -1083,7 +1083,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 298,
+													"left": 301,
 													"top": 779,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -1104,7 +1104,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 299,
+													"left": 302,
 													"top": 744,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -1138,7 +1138,7 @@
 											"tail": {
 												"$ref": "AAAAAAF1jcm+iG2PLOM="
 											},
-											"points": "417:760;181:760",
+											"points": "423:760;181:760",
 											"nameLabel": {
 												"$ref": "AAAAAAF1jhhHEXEtOgM="
 											},
@@ -1237,7 +1237,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF1jb4y721ioIo="
 									},
-									"name": "StudentManagementSystem",
+									"name": "学生表",
 									"represent": {
 										"$ref": "AAAAAAF1jcm+h22HYLE="
 									},
