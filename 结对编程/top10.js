@@ -81,6 +81,7 @@ option = {
 		}
 	],
 	series: [{
+		color:"#409eff",
 		name: '热词',
 		data: [150,130,80,70,60,50,40,38,35,30],
 		type: 'bar'
