@@ -1,0 +1,27 @@
+program->{ decls stmts} program'
+block->{ decls stmts}
+equality '->== rel equality'|!= rel equality'|ε
+decls->ε decls'
+equality ->rel equality '
+factor->( bool)| loc| num| real| true| false
+join-> equality join'
+stmt-> loc= bool;|if ( bool) stmt stmt'|while( bool) stmt|do stmt while( bool);|break;| block
+stmt'->ε| else stmt
+expr'-> +term expr'|- term expr'|ε
+type-> basic type'
+rel-> expr rel'
+rel'->< expr|<= expr|>= expr|> expr|ε
+stmts->ε stmts'
+term'->* unary term'|/ unary  term'|ε
+term-> unary term'
+unary->! unary|- unary| factor
+Loc-> loc[ num]| id
+bool-> join bool'
+program'->ε
+expr-> term expr'
+decl-> type id;
+join'-> && equality join'|ε
+decls'->ε| decl decls'
+bool'->|| join bool'|ε
+stmts'-> stmt stmts'|ε
+type'->[ num] type'|ε)
