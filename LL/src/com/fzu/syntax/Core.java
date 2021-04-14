@@ -31,7 +31,7 @@ public class Core {
             follow(entry.getKey());
         }
     }
-    private void EliminateLeftRecursion(){
+    /*private void EliminateLeftRecursion(){
         Object []keys=input.keySet().toArray();
         for (int i = 1; i <= keys.length; i++) {
             List<List<String>> lists = input.get(keys[i]);
@@ -43,7 +43,7 @@ public class Core {
 
             }
         }
-    }
+    }*/
     private void getAnalyseTable(){
         for (Map.Entry<String, List<List<String>>> entry : input.entrySet()) {
             //for每个产生式
@@ -58,7 +58,7 @@ public class Core {
                     Map<String, List<String>> map = analyseTable.get(entry.getKey());
                     for (Object o : first(strings.get(j))) {
                         //for first(beta)中的每个值
-                        if(((String)o).equals("~")){
+                        if(((String)o).equals("ε")){
                             flag=true;
                         }else {
                             map.put((String) o,input.get(entry.getKey()).get(i));
@@ -106,7 +106,7 @@ public class Core {
                         boolean flag=false;//flag代表能否推出空 true：能 false：不能
                         /*遍历s1的first集，看能否推出空*/
                         for (Object s2 : first(s1)) {
-                            if(s2.equals("~")) flag=true;
+                            if(s2.equals("ε")) flag=true;
                             firstSet.get(s).add((String)s2);
                         }
                         if (flag==false) {
@@ -139,7 +139,7 @@ public class Core {
                         //当前first集是否有空，true代表有空
                         boolean empty=false;
                         for (int j = 0; j < firstList.size(); j++) {
-                            if(((String)firstList.get(j)).equals("~")){
+                            if(((String)firstList.get(j)).equals("ε")){
                                 empty=true;
                             }else {
                                 followSet.get(s).add((String) firstList.get(j));
@@ -209,11 +209,18 @@ public class Core {
             if(flag==true)break;
         }
         int ptr=0;
+        int cnt=1;
         String top=stack.peek();
         while(!top.equals("$")){
+            StringBuffer sb=new StringBuffer();
+            sb.append(cnt+".\tstack：\t\t"+stack+"\n");
+            sb.append("\tinputList：\t"+inputString.subList(ptr,inputString.size())+"\n");
+            cnt++;
+            System.out.println(sb);
             if(top.equals(inputString.get(ptr))){
                 //匹配到，进行弹栈操作，指针前移
                 stack.pop();
+//                System.out.println("匹配"+top);
                 ptr++;
                 if(ptr>=inputString.size())break;
             }
@@ -226,15 +233,15 @@ public class Core {
             }
             else if(getProduction(top,inputString.get(ptr))!=null){
                 List<String> strings = getProduction(top, inputString.get(ptr));
-                System.out.print(stack.peek()+"->");
-                for (String s : strings) {
-                    System.out.print(s);
-                }
-                System.out.println();
+//                System.out.print(stack.peek()+"->");
+//                for (String s : strings) {
+//                    System.out.print(s+" ");
+//                }
+//                System.out.println();
                 //弹出栈顶
                 stack.pop();
                 for (int i = strings.size() - 1; i >= 0; i--) {
-                    if(!strings.get(i).equals("~"))stack.push(strings.get(i));//倒序入栈
+                    if(!strings.get(i).equals("ε"))stack.push(strings.get(i));//倒序入栈
                 }
             }
             top=stack.peek();

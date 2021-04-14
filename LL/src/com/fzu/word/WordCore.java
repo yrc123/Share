@@ -42,7 +42,7 @@ public class WordCore {
         return wordList;
     }
 
-    private void wordInput(String inputPath) throws IOException {
+    public void wordInput(String inputPath) throws IOException {
         BufferedReader br=new BufferedReader(new FileReader(inputPath));
         int cTemp;
         int status;
