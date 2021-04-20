@@ -3,7 +3,20 @@ package com.fzu.Util;
 import java.util.*;
 
 public class Data {
+	public static Set<String> initBasic(){
+		Set<String> basic = new HashSet<>();
+		basic.add("int");
+		basic.add("float");
+		basic.add("double");
+		basic.add("char");
+		basic.add("boolean");
+		basic.add("byte");
+		basic.add("long");
+		basic.add("String");
+		basic.add("short");
 
+		return basic;
+	}
 	public static Map<String,List<List<String>>>  dataInitial(){
 		Map<String,List<List<String>>> input;
 		input=new HashMap<>();
@@ -162,10 +175,18 @@ public class Data {
 			add(new ArrayList<String>(Arrays.asList("-","unary")));
 			add(new ArrayList<String>(Arrays.asList("factor")));
 		}});
-		input.put("Loc",new ArrayList<>(){{
+		/*input.put("Loc",new ArrayList<>(){{
 			add(new ArrayList<String>(Arrays.asList("loc","[","num","]")));
 			add(new ArrayList<String>(Arrays.asList("id")));
+		}});*/
+		input.put("loc",new ArrayList<>(){{
+			add(new ArrayList<String>(Arrays.asList("id","loc\'")));
 		}});
+		input.put("loc\'",new ArrayList<>(){{
+			add(new ArrayList<String>(Arrays.asList("[","num","]","loc\'")));
+			add(new ArrayList<String>(Arrays.asList("ε")));
+		}});
+
 		input.put("bool",new ArrayList<>(){{
 			add(new ArrayList<String>(Arrays.asList("join","bool\'")));
 		}});
@@ -176,7 +197,7 @@ public class Data {
 			add(new ArrayList<String>(Arrays.asList("term","expr\'")));
 		}});
 		input.put("decl",new ArrayList<>(){{
-			add(new ArrayList<String>(Arrays.asList("type","id")));
+			add(new ArrayList<String>(Arrays.asList("type","id",";")));
 		}});
 		input.put("join\'",new ArrayList<>(){{
 			add(new ArrayList<String>(Arrays.asList("&&","equality","join\'")));
@@ -195,22 +216,9 @@ public class Data {
 			add(new ArrayList<String>(Arrays.asList("ε")));
 		}});
 		input.put("type\'",new ArrayList<>(){{
-			add(new ArrayList<String>(Arrays.asList("[","num","type\'")));
+			add(new ArrayList<String>(Arrays.asList("[","num","]","type\'")));
 			add(new ArrayList<String>(Arrays.asList("ε")));
 		}});
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 		return input;
 	}

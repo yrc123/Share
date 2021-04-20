@@ -5,10 +5,7 @@ import com.fzu.syntax.Core;
 import com.fzu.word.WordCore;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Main {
 	private static String inputPath;
@@ -18,11 +15,16 @@ public class Main {
 		wordCore.wordInput(inputPath);
 		final List<Map<String, String>> list = wordCore.getList();
 		List<String> inputList=new ArrayList<>();
+		Set<String> basic = Data.initBasic();
 		for (Map<String, String> stringMap : list) {
 			for (Map.Entry<String, String> entry : stringMap.entrySet()) {
 				String value=entry.getValue();
 				if(value.equals("reservedWord"))
 				{
+					if(basic.contains(entry.getKey())){
+						inputList.add("basic");
+						continue;
+					}
 					inputList.add(entry.getKey());
 				}
 				else if(value.equals("operator")){

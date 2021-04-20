@@ -1,8 +1,8 @@
 program->{ decls stmts} program'
 block->{ decls stmts}
-equality '->== rel equality'|!= rel equality'|ε
-decls->ε decls'
-equality ->rel equality '
+equality'->== rel equality'|!= rel equality'|ε
+decls->ε | decls'
+equality ->rel equality'
 factor->( bool)| loc| num| real| true| false
 join-> equality join'
 stmt-> loc= bool;|if ( bool) stmt stmt'|while( bool) stmt|do stmt while( bool);|break;| block
@@ -15,7 +15,11 @@ stmts->ε stmts'
 term'->* unary term'|/ unary  term'|ε
 term-> unary term'
 unary->! unary|- unary| factor
-Loc-> loc[ num]| id
+
+//Loc-> loc[ num]| id
+loc -> id loc'
+loc' -> [num]loc' | ε
+
 bool-> join bool'
 program'->ε
 expr-> term expr'

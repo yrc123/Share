@@ -1,1 +1,19 @@
-while(true){}
+{
+    int a;
+    int b;
+    int i;
+    a=1;
+    b=2;
+    i = 0;
+
+    do{
+        b = 4;
+    }while(a!=1);
+
+    while(a == 1){
+        b = 3 + i;
+        if(b == 3 && a == 1 || a == 0){
+            break;
+        }
+    }
+}

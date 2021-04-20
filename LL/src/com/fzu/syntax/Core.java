@@ -226,10 +226,14 @@ public class Core {
             }
             else if(!input.containsKey(top)){
                 //如果是终结符
+                stack.pop();
                 System.out.println("error");
+                System.exit(-1);
             }
             else if(getProduction(top,inputString.get(ptr))==null){
+                stack.pop();
                 System.out.println("error");
+                System.exit(-1);
             }
             else if(getProduction(top,inputString.get(ptr))!=null){
                 List<String> strings = getProduction(top, inputString.get(ptr));
